@@ -1,0 +1,105 @@
+input[type=email], input[type=password] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #005100;
+    border-radius: 4px;
+    background: rgba(35, 85, 50, 0);
+}
+
+input[type=email]:hover, input[type=password]:hover {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #26b926;
+    border-radius: 4px;
+    background: rgba(35, 85, 50, 0);
+
+}
+ .login{
+	margin: 10px;
+	font-size: 13pt;
+	padding: 10px;
+	background: transparent;
+	color: hsl(139, 18%, 35%);
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	border: none;
+}
+
+ .login:focus{
+	outline: none;
+}
+
+ .login::-webkit-input-placeholder{
+	color: hsl(151, 48%, 80%);
+}
+
+
+h1{
+    color: #ffffff;
+    font-family:  Aqua Grotesque;
+}
+
+body{
+    text-align: center;
+    background-color:#2d3b42;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: hsl(184, 54%, 58%);
+
+}
+
+ #hobi {
+    margin: 20px;
+
+}
+.gender{
+    margin: 4px;
+}
+.checkbox{
+    margin-top: 20px;
+}
+
+img{
+    border-radius: 50px;
+    border: solid 2px rgb(144, 215, 31);
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+button{
+    color: black;
+    background-color: rgb(47, 205, 55) ;
+    border-radius: 5px ;
+    padding: 15px;
+    width: 150px;
+    margin-top: 10px;
+
+}
+button:hover{
+    color: #ffffff;
+    background-color: rgb(63, 98, 7);
+    border-radius: 5px  ;
+    padding: 15px;
+    width: 150px;
+    margin-top: 10px;
+    border: solid 1px rgb(144, 215, 31);
+}
+
+select{
+    background-color:#2d3b42;
+    color: hsl(139, 18%, 35%);
+}
+
+
+
+/* .pembungkus{ */
+    width: 45%;
+
+    margin: auto;
+    border-radius: 10px ;
+    border:5px solid #df9019;
+}

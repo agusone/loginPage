@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FORM REGISTER</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/sweetalert.CSS">
+    <script src="sweetalert.min.js" type="text/javascript">
+
+    </script>
+
+
+</head>
+<body>
+    <div class="pembungkus">
+    <h1>REGISTER</h1>
+    <img src="user.ico" alt="">
+    <form action="">
+        <input class="login" type="email" required placeholder="Email " style="text-align: center">
+        <br>
+        <input class="login" type="password" required placeholder="Password" style="text-align: center  ;" >
+       <br>
+       <label for="">JENIS KELAMIN</label>
+       <select name="" id="hobi">
+
+           <option value="">pria</option>
+           <option value="">wanita</option>
+           <option value="">Lain-lain</option>
+       </select>
+       <div class="gender">
+           <label for="">Kota Asal :</label>
+           <br>
+           <input type="radio" name="gender" >Denpadar
+
+           <input type="radio" name="gender">Badung
+
+           <input type="radio" name="dender">Gianyar
+
+       </div>
+       <div class="checkbox">kelas Yang di Pilih :
+           <br>
+           <input type="checkbox">HTML
+
+           <input type="checkbox">CSS
+
+           <input type="checkbox">JS
+       </div>
+        <button onclick="validasion();"type="submit">Login</button>
+    </form>
+    </div>
+
+
+
+
+</body>
+</html>
